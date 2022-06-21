@@ -1,0 +1,1 @@
+curl --location --request POST 'https://p9jgtqdzee.execute-api.ap-northeast-2.amazonaws.com/send' --header 'Content-Type: application/json' --data-raw '{   "MessageGroupId": "stock-empty-group",    "subject": "부산도너츠 재고 부족",  "message": "재고 부족",    "MessageAttributeProductId": "CP-502101",    "MessageAttributeFactoryId": "FF-500293"}'

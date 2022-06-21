@@ -1,0 +1,21 @@
+{
+  "name": "day-3-step-2-new-product-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1117.0",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "serverless-http": "^3.0.1"
+  },
+  "devDependencies": {
+    "serverless-lift": "^1.15.0"
+  }
+}
