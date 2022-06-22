@@ -1,4 +1,4 @@
- curl --location --request POST 'https://4ubv3jsfl4.execute-api.ap-northeast-2.amazonaws.com/send' \
+ curl --location --request POST 'https://4ug2fi3vka.execute-api.ap-northeast-2.amazonaws.com/send' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "MessageGroupId": "stock-empty-group",

@@ -61,7 +61,7 @@ function (error, results, fields) {
         },
       },
       // https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html#sendMessage-property
-      TopicArn: 'arn:aws:sns:ap-northeast-2:728116505069:stock_empty.fifo'
+      TopicArn: 'arn:aws:sns:ap-northeast-2:568004044946:stuck.fifo'
 
     };
 sns.publish(params, function (err, data) {

@@ -1,4 +1,8 @@
-﻿-- RDS에 생성한 데이터베이스 리소스에 아래 table들을 생성하고, 값을 추가해넣으세요.
+﻿mysql -h database-1.cige5qnkomkn.ap-northeast-2.rds.amazonaws.com -P 3306 -u admin -p
+gkgkgk12!
+
+UPDATE prodcut SET stock=0 WHERE stock=5;
+-- RDS에 생성한 데이터베이스 리소스에 아래 table들을 생성하고, 값을 추가해넣으세요.
 CREATE TABLE `product` (
     `product_id` BINARY(16)  NOT NULL ,
     -- http://mdr.tta.or.kr/item/1036/property/sku
@@ -71,6 +75,6 @@ FROM advertisement;
 -- 90d718bc-c217-11ec-baec-d322339a6943
 
 INSERT INTO product(product_id, sku, name, price, stock, factory_id, ad_id)
-VALUES(UUID_TO_BIN(UUID()),'CP-502101','부산도너츠', 19900, 3, UUID_TO_BIN("d5a3655a-c9b9-11ec-a849-0a5824c89b02"),
-UUID_TO_BIN('d91d9dfb-c9b9-11ec-a849-0a5824c89b02'));
+VALUES(UUID_TO_BIN(UUID()),'CP-502101','부산도너츠', 19900, 3, UUID_TO_BIN("e4043b99-f1d3-11ec-96ed-0a607fb2349e"),
+UUID_TO_BIN('e407aec8-f1d3-11ec-96ed-0a607fb2349e'));
 

@@ -16,6 +16,6 @@
     "serverless-http": "^3.0.1"
   },
   "devDependencies": {
-    "serverless-lift": "^1.15.0"
+    "serverless-lift": "^1.19.0"
   }
 }
