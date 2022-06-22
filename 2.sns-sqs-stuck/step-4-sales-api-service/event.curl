@@ -1,4 +1,4 @@
-curl --location --request POST 'https://jxyp7nt8v8.execute-api.ap-northeast-2.amazonaws.com/send' --header 'Content-Type: application/json' --data-raw '{   "MessageGroupId": "stock-empty-group",    "subject": "부산도너츠 재고 부족",  "message": "재고 부족",    "MessageAttributeProductId": "CP-502101",    "MessageAttributeFactoryId": "FF-500293"}'
+curl --location --request POST 'https://t0t6zzgd9j.execute-api.ap-northeast-2.amazonaws.com/send' --header 'Content-Type: application/json' --data-raw '{   "MessageGroupId": "stock-empty-group",    "subject": "부산도너츠 재고 부족",  "message": "재고 부족",    "MessageAttributeProductId": "CP-502101",    "MessageAttributeFactoryId": "FF-500293"}'
 
  curl --location --request POST 'https://2jyfnbjflf.execute-api.ap-northeast-2.amazonaws.com/send' \
 --header 'Content-Type: application/json' \

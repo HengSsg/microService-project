@@ -1,0 +1,14 @@
+service: aws-node-post-stockEmpty
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: ap-northeast-2
+
+functions:
+  hello:
+    handler: handler.Stock_Empty
+    events:
+      - sqs:
+          arn: arn:aws:sqs:ap-northeast-2:568004044946:letter.fifo

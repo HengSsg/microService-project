@@ -47,6 +47,3 @@ curl --location --request POST 'http://factory.p3.api.codestates-devops.be:8080/
 [ 영업 api ] -> sns -> sqs -> (Stock Empty labmda) -> [ 공장 api ]
 
 </pre>
-
-
-## 학습목표 : 1일차와 2일차에 배웠던 내용을 합하여 전체적인 메시지 전달 인프라를 만들어보고 종합적인 시각을 확보하자.

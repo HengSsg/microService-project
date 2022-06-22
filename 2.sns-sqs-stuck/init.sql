@@ -1,7 +1,7 @@
 ﻿mysql -h database-1.cige5qnkomkn.ap-northeast-2.rds.amazonaws.com -P 3306 -u admin -p
 gkgkgk12!
 
-UPDATE prodcut SET stock=0 WHERE stock=5;
+UPDATE test.prodcut SET stock=5;
 -- RDS에 생성한 데이터베이스 리소스에 아래 table들을 생성하고, 값을 추가해넣으세요.
 CREATE TABLE `product` (
     `product_id` BINARY(16)  NOT NULL ,

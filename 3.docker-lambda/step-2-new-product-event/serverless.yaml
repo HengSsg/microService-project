@@ -1,0 +1,25 @@
+service: node-stock-add
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: ap-northeast-2
+
+  environment:
+    PASSWORD: gkgkgk12!
+    HOST_RDS: database-1.cige5qnkomkn.ap-northeast-2.rds.amazonaws.com
+    USER_RDS: admin
+    DATABASE_RDS: test
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          method: post
+          path: /send
+          
+
+plugins:
+  - serverless-lift

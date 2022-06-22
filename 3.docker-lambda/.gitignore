@@ -1,8 +1,5 @@
-**/*/serverless.*
 **/*/node_modules
 **/*/.serverless
-
-**/*/*/serverless.*
 **/*/*/node_modules
 **/*/*/.serverless
 

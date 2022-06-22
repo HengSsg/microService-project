@@ -5,7 +5,6 @@ const AWS = require("aws-sdk");
 const sns = new AWS.SNS();
 
 app.use(express.json());
-app.get("/status", (req, res) => res.json({ status: "ok", sns: sns }));
 app.post("/send", (req, res) => {
   console.log("@@@:",req.body)
   var mysql = require("mysql");
